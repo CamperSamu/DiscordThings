@@ -1,0 +1,23 @@
+//META{"name":"Test","description":"Test Theme","author":"Camper_Samu","version":"1.0"}*//{}
+
+:root {
+	--main-color: #7c1313;
+	--hover-color: #7c1313;
+    --background-blur: 1px;
+    --background-brightness: 110%;
+}
+
+:body {
+    :after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://i.imgur.com/e7W9EFl.jpg) !important;
+    }
+}
