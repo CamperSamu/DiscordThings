@@ -1,0 +1,107 @@
+//META{"name":"Touka red theme","description":"Touka's theme with customizable colors & background!</br> <a>Based on ClearVision v5</a>","version":"5"}*//{}
+/* "ClearVision - Emerald v5" by @Zerthox */
+/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+================ IMPORTANT LINKS =================
+Github: https://git.io/v6BHO
+Discord: https://git.io/vMnlu
+Wiki: https://git.io/vXTqM
+Latest version: https://git.io/v6Muk
+Changelog: https://git.io/v6r5N
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #7c1313;
+	--hover-color: #7c1313;
+    --background-blur: 1px;
+    --background-brightness: 110%;
+}
+
+.contentSelectedText-3j5CXt,
+.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller [class*="item"][class*="selected-"], #bd-settings-sidebar .ui-tab-bar-item.selected{
+    background-color: #7c1313;
+    background: rgba(124,19,19,0.60)
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://raw.githubusercontent.com/CamperSamu/Images/master/TG%20touka.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+========== Background Fix ===========
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+#app-mount,
+.app .layers .layer,
+.app .layers .layer>[class*='container-'],
+.app .layers,
+.content-region,
+.guilds-wrapper,
+.sidebar-region,
+.ui-standard-sidebar-view,
+[class*='activityFeed-'],
+[class*='channels-'],
+[class*='titleBar-']
+{
+  /* Too dark or too bright? Adjust the opacity (`0.15`) to something lower or higher */
+  background: rgba(0,0,0,0.15) !important;
+}
+
+.channel-members,
+.chat .content,
+.chat form,
+.chat,
+.content .flex-spacer,
+.messages-wrapper,
+.typing,
+[class*='channels-'] [class*="container-"],
+[class*='headerBar-'],
+[class*='titleWrapper-'] [class*='title-']
+{
+  background: transparent !important;
+}
+
+.messages-wrapper + form {
+  box-shadow: none !important;
+}
+
+
+
+
+
+
+/* https://raw.githubusercontent.com/CamperSamu/Images/master/TG%20touka.png
+   https://i.imgur.com/e7W9EFl.jpg
+*/
