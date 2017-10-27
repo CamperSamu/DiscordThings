@@ -1,2 +1,2 @@
 # DiscordThings
-# My discord tests
+# My discord tests and things
