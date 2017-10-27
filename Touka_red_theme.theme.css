@@ -1,6 +1,6 @@
-//META{"name":"Touka red theme","description":"Touka's theme with customizable colors & background!</br> <a>Based on ClearVision v5</a>","version":"5"}*//{}
-/* "ClearVision - Emerald v5" by @Zerthox */
-/* Based on "Discord Reborn v4.30" by @Omniscient & "DarkMatter" by @Hammock */
+//META{"name":"Touka red theme","description":"Touka's theme with customizable colors & background! Based on ClearVision v5","author":"Camper_Samu","version":"5"}*//{}
+
+
 
 /* IMPORT CSS FROM GITHUB */
 @import url(https://gitcdn.xyz/repo/Zerthox/ClearVision/master/css/ClearVision_v5.min.css);
@@ -28,6 +28,8 @@ Changelog: https://git.io/v6r5N
 	--hover-color: #7c1313;
     --background-blur: 1px;
     --background-brightness: 110%;
+    --Background-Colour: #7c1313;
+    --Main-Colour: #7c1313;
 }
 
 .contentSelectedText-3j5CXt,
@@ -35,6 +37,51 @@ Changelog: https://git.io/v6r5N
     background-color: #7c1313;
     background: rgba(124,19,19,0.60)
 }
+
+.userPopout-4pfA0d {
+	background: transparent;
+}
+
+.userPopout-4pfA0d .footer-2J5zqP{
+  display: none;
+}
+
+#user-profile-modal .header:after {
+  background: transparent !important;
+  background-color: var(--Background-Colour) !important;
+}
+
+#user-profile-modal 
+
+
+
+.scroller {
+    background: rgba(0,0,0,0.80);
+}
+
+
+element.style {
+    background: rgba(0,0,0,0.20);
+    transform: translateZ(0px);
+}
+
+
+
+.userPopout-4pfA0d,
+.headerNormal-1cioxU {
+    background: rgba(0,0,0,0.70);
+}
+
+.avatarSpeaking-3teDH6 {
+    -webkit-box-shadow: 0 0 0 2px #7c1313, inset 0 0 0 1.5px #2f3136;
+    box-shadow: 0 0 0 2px #7c1313, inset 0 0 0 1.5px #2f3136;
+}
+
+
+
+
+
+    
 /*
 --------------------------------------------------------------------------------------------------------------------------------------------
 */
